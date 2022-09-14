@@ -8,13 +8,13 @@ function SecondsCounter() {
 	},);
 	[counter]
 
-	const first = Math.floor(counter / 1) %10;
+	const first = Math.floor(counter / 1) % 10;
 	const second = Math.floor(counter / 10) % 10;
 	const third = Math.floor(counter / 100) % 10;
 	const fourth = Math.floor(counter / 1000) % 10;
 	const fifth = Math.floor(counter / 10000) % 10;
 	const sixth = Math.floor(counter / 100000) % 10;
-	
+
 	return (
 		<>
 			<div className="alert bg-dark bg-gradient text-white m-3 mx-auto w-50 d-flex justify-content-end">
